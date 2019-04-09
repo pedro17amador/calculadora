@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Calculadora</title>
+		<script src="js/funcoes.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	</head>
+	<body>
+	<div id="fundo">
+		<table border="0">
+			<form name = "calc">
+				<tr>
+					<th colspan="5"><input type="text" id="visor" name="visor" value="0"></th>
+				</tr>
+				<tr>
+					<th><input type="button" id="num" name="seta" value="←" onclick="botao(value);"></th>
+					<th><input type="button" id="num" name="ce" value="CE" onclick="botao(value);"></th>
+					<th><input type="button" id="num" name="c" value="C" onclick="reset();"></th>
+					<th><input type="button" id="num" name="maisoumenos" value="±" onclick="botao(value);"></th>
+					<th><input type="button" id="num" name="raiz" value="√" onclick="botao(value);"></th>
+				</tr>
+				<tr>
+					<th><input type="button" id="num" name="num7" value="7" onclick="botao(value);"></th>
+					<th><input type="button" id="num" name="num8" value="8"  onclick="botao(value);"></th>
+					<th><input type="button" id="num" name="num9" value="9" onclick="botao(value);"></th>
+					<th><input type="button" id="num" name="divisao" value="/" onclick="botao(value);"></th>
+					<th><input type="button" id="num" name="porcent" value="%" onclick="botao(value);"></th>
+				</tr>
+				<tr>
+					<th><input type="button" id="num" name="num4" value="4" onclick="botao(value);"></th>
+					<th><input type="button" id="num" name="num5" value="5" onclick="botao(value);"></th>
+					<th><input type="button" id="num" name="num6" value="6" onclick="botao(value);"></th>
+					<th><input type="button" id="num" name="multiplicacao" value="*" onclick="botao(value);"></th>
+					<th><input type="button" id="num" name="lll" value="1/x" onclick="botao(value);"></th>
+				</tr>
+				<tr>
+					<th><input type="button" id="num" name="num1" value="1" onclick="botao(value);"></th>
+					<th><input type="button" id="num" name="num2" value="2" onclick="botao(value);"></th>
+					<th><input type="button" id="num" name="num3" value="3" onclick="botao(value);"></th>
+					<th><input type="button" id="num" name="subtracao" value="-" onclick="botao(value);"></th>
+					<th rowspan="2"><input type="button" id="igual" name="igual" value="=" onclick="calcule();"></th>
+				</tr>
+				<tr>
+					<th colspan="2"><input type="button" id="num0" name="num0" value="0" onclick="botao(value);"></th>
+					<th><input type="button" id="num" name="virgula" value="," onclick="botao(value);"></th>
+					<th><input type="button" id="num" name="soma" value="+" onclick="botao(value);"></th>
+				</tr>
+			</form>
+		</table>
+    </div>
+	</body>
+</html>

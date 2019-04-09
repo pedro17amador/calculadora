@@ -1,0 +1,31 @@
+#visor{
+	text-align: right;
+	font-size: 100px;
+	width:370px;
+	height:80px;
+	background:#000;
+	color:white;
+}
+#num0{
+	font-size: 20px;
+	width:145px;
+	height:30px;
+	background:#CCEEFF;
+}
+#igual{
+	font-size: 20px;
+	width:50px;
+	height:66px;
+	background:#CCEEFF;
+}
+#num{
+	font-size: 20px;
+	width:50px;
+	height:30px;
+	background:#CCEEFF;
+}
+#fundo{
+	width:380px;
+	height:264px;
+	background:#B0CFD3;
+}
